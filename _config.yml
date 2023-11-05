@@ -105,7 +105,7 @@ analytics:
 # Site Author
 author:
   name             : "COST Mall"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : /assets/images/costmall.png # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "최저가 온라인 쇼핑몰"
   location         : "South Korea"
   email            :
@@ -264,9 +264,9 @@ jekyll-archives:
   layouts:
     category: archive-taxonomy
     tag: archive-taxonomy
-  permalinks:
-    category: /categories/:name/
-    tag: /tags/:name/
+  # permalinks:
+  #   category: /categories/:name/
+  #   tag: /tags/:name/
 
 
 # HTML Compression
